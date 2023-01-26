@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gerenciamento por Voz</title>
+</head>
+
+<body>
+    <div class="title">Entrada por voz</div>
+    <div class="dict" contenteditable>
+        <p id="voice"></p>
+    </div>
+
+    <div class="title">Saída</div>
+    <div class="console">
+        <p id="command">>
+    </div>
+    <div class="title">Comandos por voz</div>
+    <div class="console">
+        <p id="command">> Janela (abre nova aba)</p>
+        <p id="command">> Pesquisar [argumentos] (inicia uma pesquisa com o google)</p>
+        <p id="command">> Abrir [Twitter], [Facebook], [Instagram] (Abre a rede social falada)</p>
+        <p id="command">* <a href="https://github.com/git-mare/voice-recognition" target="_blank">Repositório Github</a></p>
+        <p id="command" class="alert">* Clique em qualquer área da tela para ativar o Text to Speech (responder aos comandos usando voz). Ou você pode clicar <a href="#textToSpeechOn">Aqui</a> para ativá-lo.</p>
+        <p id="command" class="alert">* Antes de usar, certifique-se de que seu navegador não está bloqueando pop-ups para esta aba, e se o microfone tem autorização para esta aba.</p>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
