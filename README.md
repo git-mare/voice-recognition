@@ -1,6 +1,6 @@
 # voice-recognition
 
-<img src="https://i.imgur.com/HkZcx7J.jpg">
+<img src="https://i.imgur.com/k44ed2P.png">
 
 <h2>Comandos por voz em navegador</h2>
 <p> Usando o SpeechRecognition do Javascript, desenvolvi um script que executa algumas tarefas a partir de comandos por voz.</p>
