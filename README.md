@@ -1,4 +1,5 @@
 # voice-recognition
+Um script que realiza ações através de comandos por voz
 
 <img src="https://i.imgur.com/k44ed2P.png">
 
